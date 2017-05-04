@@ -1,5 +1,5 @@
 from maze import *
 
-m = Maze(50)
+m = Maze(30)
 
 m.printMaze()
