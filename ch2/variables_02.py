@@ -32,3 +32,10 @@ print a/3
 a=100.0  #decimal number
 print a/3
 
+
+#To change types
+a='100' #string
+
+print 'a*2 as string: ', a*2
+print 'a*2, convert a to integer:', int(a)*2
+print 'a/3, convert a to decimal:', float(a)/3
