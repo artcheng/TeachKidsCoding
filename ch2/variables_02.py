@@ -39,3 +39,30 @@ a='100' #string
 print 'a*2 as string: ', a*2
 print 'a*2, convert a to integer:', int(a)*2
 print 'a/3, convert a to decimal:', float(a)/3
+
+#task 1
+#create a variable, firstname, which tags your first name (string)
+#create a variable, lastname, which tags your last name (string)
+#print your full name
+
+
+#task 2
+#fix these errors
+
+#2.1 variable name can't have space
+#full_name="Yi Cheng"   #right
+#full name="Yi Cheng"   #wrong
+
+#2.2 some words is reserved by python, they are called key words.
+#print=5  #print can't be used as variable
+
+#2.3 variables are case sentitive
+#fullname="Yi Cheng"
+#print Fullname     #wrong
+
+#Note = for variable means assignment, it is different from = in math
+a = 5  #assign 5 to a
+print 'a is ',a
+
+a = a + 1  #assign a+1, which is 5+1, to a .  In math x= x + 1 is totally wrong statement
+print 'a is ',a
