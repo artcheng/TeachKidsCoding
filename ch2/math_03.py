@@ -23,7 +23,7 @@ b = 5.8
 c = a/b
 print c
 
-#reminder (integer only)
+#remainder (integer only)
 a=187
 b=13
 print a%b

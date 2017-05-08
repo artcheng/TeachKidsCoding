@@ -14,6 +14,7 @@ print ('Hello World')
 
 #then try something wrong, read the error message and try to fix it
 
+#task 3: finx these errors
 #print Yi Cheng
 #print YiCheng
 
