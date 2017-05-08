@@ -27,3 +27,10 @@ print c
 a=187
 b=13
 print a%b
+
+#power
+a=2.0
+b=3
+print a**b
+
+#task, write some math expression on paper, translate them to python.
