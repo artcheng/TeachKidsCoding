@@ -66,3 +66,14 @@ print 'a is ',a
 
 a = a + 1  #assign a+1, which is 5+1, to a .  In math x= x + 1 is totally wrong statement
 print 'a is ',a
+
+#Another thing need to be careful
+a=5
+b=6
+c=a+b
+
+print 'c is ',c  #what is c here?
+
+b=7
+
+print 'c is ', c #is c changed while b is changed?
