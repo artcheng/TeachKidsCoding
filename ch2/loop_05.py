@@ -1,10 +1,14 @@
-#For loop
 
+#For loop
 for i in range(0, 10):
     print i
 
 print '-'*10
 
+#what is range(0, 10)
+print range(0, 10)
+
+print '-'*10
 a=10
 for i in range(0, a):
     print i,"'s square is ", i*i
@@ -35,7 +39,7 @@ print 'outside the for loop, i is ',i  #i is the last value when get out the loo
 
 
 
-
+print '-' * 10
 #example 1. calculate 1+2+3+...+100
 n=101
 sum=0
