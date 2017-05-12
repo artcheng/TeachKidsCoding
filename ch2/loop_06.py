@@ -1,5 +1,7 @@
-
 #For loop
+for student in ["Tom", "Lucy", "Jack", "Chris"]:
+    print "How are you!", student, "!"
+
 for i in range(0, 10):
     print i
 
@@ -49,4 +51,15 @@ for i in range(1, n):
 print sum
 
 #task 1. calculate 15!=1*2*3*...*15
+
+
+print '-' * 10
+#example 2. Find all factor of a given number
+n=4983
+
+print 'finding', n, '\'s factors'  #if you want to print ', use \', just like \n for a new line
+for i in range(2, n):
+    if n%i==0:
+        print i, 'is a factor of', n
+print 'finding factors of ', n
 
