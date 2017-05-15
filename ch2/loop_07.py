@@ -13,5 +13,12 @@ print "1+2+3+...+100 =", total  # once the loop finished, the code goes to previ
 
 
 
-# example 2.
+# example 2. Find all factors of a given number. How to make different levels of code.
+
+n = 2850
+for i in range(2, n):
+    if n%i == 0:    # for loop
+        print i, 'is a factor of', n  # if
+
+# task 2. For a given number, let the computer decide if it is a prime number.
 
