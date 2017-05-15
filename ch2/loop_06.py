@@ -5,7 +5,10 @@
 team = ['Luck', 'Noah', 'Parker', 'Dayuan', 'Tim']
 
 for player in team:
+    # Do something! the lines of code inside loop have same white space in the front.
+    print player,' put the ball in front of the goal.'
     print player,' is shooting!'
+    print player,' goes to get the ball back.\n'
 
 print '----- take a rest ----'
 # Now Jimmy comes, he stands at the end of the line

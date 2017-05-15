@@ -1,10 +1,17 @@
-# While loop
+# Let's do some math using for loop
+# example 1. calculate 1+2+3+...+100
+n = 101
+total = 0
 
-# Before study while, let's try how to get a keyboard input
-x = raw_input("Enter your name:")
-print 'Your name is',x
+for i in range(1, n):  # i from 1 to 100
+    total = total+i
 
-# Remember, if you want to use input as number, you need to convert it
-x = raw_input("Enter a number:")
-x = float(x)
-print x, 'square is', x**2
+print "1+2+3+...+100 =", total  # once the loop finished, the code goes to previous level.
+
+
+# task 1. calculate 10*9*8*...*1
+
+
+
+# example 2.
+
