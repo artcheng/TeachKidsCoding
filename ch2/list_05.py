@@ -5,7 +5,7 @@ lst = [1, 'aha', 3.0, True]
 # we use index to access each item, the index of first item is 0
 print lst[0]  # first item
 print lst[1]  # second item
-print lst[2]
+print lst[2] # third item
 print lst[3] # last item
 
 
@@ -30,4 +30,9 @@ list.append("one")
 print list
 list.append("two")
 print list
+list.append("three")
+print list
 
+# use len() to count how many items in the list
+n = len(list)
+print 'there are', n, 'items in the list now'

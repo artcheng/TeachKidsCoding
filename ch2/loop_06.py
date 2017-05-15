@@ -1,65 +1,36 @@
-#For loop
-for student in ["Tom", "Lucy", "Jack", "Chris"]:
-    print "How are you!", student, "!"
+# For loop is picking up items in a list one by one and doing something
 
-for i in range(0, 10):
-    print i
+# Some soccer players are exercising. They lined up as a list and practise shooting one by one
 
-print '-'*10
+team = ['Luck', 'Noah', 'Parker', 'Dayuan', 'Tim']
 
-#what is range(0, 10)
-print range(0, 10)
+for player in team:
+    print player,' is shooting!'
 
-print '-'*10
-a=10
-for i in range(0, a):
-    print i,"'s square is ", i*i
+print '----- take a rest ----'
+# Now Jimmy comes, he stands at the end of the line
+team.append('Jimmy')
+# They practise shooting again
 
-print '-'*10
+for player in team:
+    print player,' is shooting!'
 
-#if you want to stop a loop in the middle, use break
-a=100
-for i in range(0,a):
-    print i
-    if i>10:
-        break
+print '----- take a rest ----'
+# remember we could use index number to access item in the list
+# The coach said, the third player go to collect the balls and the fourth player go to pick up the cones
 
-print '-' * 10
+print team[2], ', Go to collect the balls!'  # We use index 2 to access the third item
+print team[3], ', Go to pick up the cones!'  # We use index 3 to access the fourth item
 
-# understand the space in front each line.
-#1.
-a=5
-for i in range(0, 5):
-    x=i**2 #Do something inside the loop
-    print 'inside the for loop, i is ',i  #i is changing every time
+print '----- offense and defense training. every time come out two players, one play offense and one play defense ----'
+# this time we use index
+n = len(team) # how many players in the team
 
-print '-' * 10
-#2
-for i in range(0, 5):
-    x=i**2 #Do something inside the loop
-print 'outside the for loop, i is ',i  #i is the last value when get out the loop
+for i in range(0, n-1):
+    print team[i], 'and', team[i+1], 'are practising offense and defense'
 
 
-
-print '-' * 10
-#example 1. calculate 1+2+3+...+100
-n=101
-sum=0
-
-for i in range(1, n):
-    sum = sum + i
-print sum
-
-#task 1. calculate 15!=1*2*3*...*15
-
-
-print '-' * 10
-#example 2. Find all factor of a given number
-n=4983
-
-print 'finding', n, '\'s factors'  #if you want to print ', use \', just like \n for a new line
-for i in range(2, n):
-    if n%i==0:
-        print i, 'is a factor of', n
-print 'finding factors of ', n
+print '----- take a rest ----'
+for i in range(0, n-1, 2):  # add step 2
+    print team[i], 'and', team[i+1], 'are practising offense and defense'
 
