@@ -22,3 +22,19 @@ for i in range(2, n):
 
 # task 2. For a given number, let the computer decide if it is a prime number.
 
+
+
+# answer
+# let the computer decide if it is a prime number. Understand the how code block
+n=2791
+isPrime = True
+for i in range(2, n):
+    if n%i == 0:
+        isPrime = False
+        break         # how to exit a loop in the middle
+
+if isPrime:
+    print n, 'is a prime number'
+else:
+    print n, 'is a composite number'
+
