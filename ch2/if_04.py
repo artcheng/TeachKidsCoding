@@ -17,7 +17,7 @@ if t>80 :
 elif t>60:  #means else if
     print 'It is not hot, I will wear long leaves shirt'
 else:
-    print 'It is not hot, I will wear jacket'
+    print 'It is cold, I will wear jacket'
 
 
 #What t>80 really is? The values are either Ture or False
