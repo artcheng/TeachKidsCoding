@@ -12,7 +12,7 @@ print math.sqrt(2.0)
 
 # or you could use a piece of tool in a toolbox
 from random import randint
-x = randint(0,9)
+x = randint(0,9) # x is a random integer between 0 to 9
 print x
 
 from datetime import datetime  # the first datetime is the name of the module (toolbox), the second datetime is a class (piece of tool) in the module
