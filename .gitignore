@@ -2,3 +2,5 @@
 */.idea/
 ch1/.idea/
 *.swp
+*.xml
+.idea/TeachKidsCoding.iml
