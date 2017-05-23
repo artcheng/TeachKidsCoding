@@ -77,3 +77,10 @@ print 'c is ',c  #what is c here?
 b=7
 
 print 'c is ', c #is c changed while b is changed?
+
+Place_of_horror=['snake gut','horse poop', 'frog saliva', 'cow puke', 'bat bloood', 'chicken beak', 'cameleon eyeball', 'human tongue', 'shark teeth', 'bird skeleton', 'dog fart']
+print (Place_of_horror[7])
+print (Place_of_horror[6:9])
+
+Pizza=['peperoni', 'cheese', 'tomato sauce', 'olive', 'flour', ' meat sauce', 'mushroom', 'spinach']
+print (Pizza[1:4])
