@@ -20,6 +20,8 @@ print list
 list = range(0, 10)  #a list of integer form 0 to 9
 print list
 
+
+
 list = range(0, 10, 2)  # if you want to count by 2
 print list
 
@@ -36,3 +38,7 @@ print list
 # use len() to count how many items in the list
 n = len(list)
 print 'there are', n, 'items in the list now'
+
+Pizza=['peperoni', 'cheese', 'tomato sauce', 'olive', 'flour', ' meat sauce', 'mushroom', 'spinach']
+n=len(Pizza)
+print 'there are', n, 'ingredients in the pizza'
