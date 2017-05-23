@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 p=9
 t=12
 if p>t/2:
@@ -91,7 +90,6 @@ print family[2]
 for people in family:
     print people,'needs to speak chinese'
 
-=======
 #task 3: give two integer numbers, multiply them. if the answer is odd, print "an odd couple," if the answer is even, print 'heavenly bliss'
 
 a=33
@@ -109,4 +107,4 @@ if c==0:
 # if you are driving at the speed (5 miles below or above the limit), you are given a smiley face:
 # Jim was stopped three times. Driving at 100 miles in Michigan. Driving at 73 miles in Kentucky, and driving at 35 miles in Michigan.
 # Please tell the computer to determine the penalty given to Jim each time.
->>>>>>> master
+
