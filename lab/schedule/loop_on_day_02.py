@@ -1,4 +1,4 @@
-# look at basic_01.py.  if you want to print a schedule of 30 days, you should think of dor a for loop on days
+# look at basic_01.py.  if you want to print a schedule of 30 days, you should think of for loop on days
 
 members = ['Mom', 'Dad', 'Hanhan', 'Menmen']
 tasks = ['Washes Dish', 'Cleans Floor', 'Cleans Table', 'Others Stuff']

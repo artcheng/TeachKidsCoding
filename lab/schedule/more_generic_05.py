@@ -3,18 +3,10 @@
 
 
 # first, a task should be done only once a day. If you have only 1 or 2 in you task list, you only need 1 or 2 people to do them.
-#        So, the inside loop should bask on tasks instead of memebers
+#        So, the inside loop should base on tasks instead of members
 
 # Second, if you want to apply your program to different cases, only 3 things is changeable, memebers, tasks and number of days
 #         The rest of program should be never changed again
-
-
-#  first, a task should be done only once a day. If you have only 1 or 2 in you task list, you only need 1 or 2 people to do them.
-#        So, the inside loop should bask on tasks instead of memebers
-
-#  Second, if you want to apply your program to different cases, only 3 things is changeable, memebers, tasks and number of days
-#         The rest of program should be never changed again
-
 
 
 # Only change these 3 lines if you want to apply your program to other cases
