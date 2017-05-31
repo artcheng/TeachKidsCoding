@@ -35,7 +35,7 @@ class Cell:
 		return self.visited
 
 	def draw(self, plt, x, y, h):
-		dh = h/3
+		dh = h/7
 		if self.walls[Cell.UP]==1:
 			plt.plot([x, x+h], [y+h, y+h], 'k-', lw=1)
 		if self.walls[Cell.DOWN]==1:
