@@ -18,7 +18,7 @@ for week in range(1,53):
 
 #task seven
 #Raina is saving five bucks each week.
-#By putting it in the bank, she earns one dollar interests each week.
+#By putting it in the bank, she earns one dollar interests for every five dollars she has each week.
 # Please tell the computer how much money does Raina have each week.
 
 
