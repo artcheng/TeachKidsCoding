@@ -32,3 +32,23 @@ while i < len(nums):
     i = i+2
 
 print nums
+
+# you need make sure while loop could stop at certain condition, otherwise, it is a dead loop
+
+i = 0
+while i<5:
+    print i
+    i = i+1  # without this line, it will be a dead loop and print 0 forever
+
+
+i = 0
+while True:   #We design the loop to loop "forever" on purpose
+    print i
+    i = i+3
+
+    # but we could stop it at certain point
+    if i%5 ==0:
+        break
+
+
+
